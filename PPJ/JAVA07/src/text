@@ -1,0 +1,21 @@
+/* I. Zadeklaruj tablicę zmiennych typu double o rozmiarze 10 elementów. A następnie:
+•wypełnij tablicę losowymi liczbami
+•wyświetl na ekranie zawartość całej tablicy
+•wyświetl na ekranie tylko liczby o parzystym indeksie
+•wyświetl na ekranie tylko elementy tablicy, których przekonwertowane
+na int wartości są nieparzyste */
+
+II. Zadeklaruj tablicę zmiennych typu char i wypełnij ją trzema dowolnymi znakami.
+Następnie używając pętli przeanalizuj tablicę i wskaż indeks elementu o najmniejszej wartości.
+
+III. Utwórz program, który utworzy pięcio-elementową tablicę i wypełni ją losowymi literami
+ z przedziału od A do Z. Następnie wprowadź z klawiatury wartość zmiennej char wykorzystując
+  poniższy kod:
+  1 java.util.Scanner in=new java.util.Scanner(System.in) ;
+  2
+  3//  . . . .
+  4
+  5 char c=in.next() .charAt(0) ;
+  Program zliczy ile razy wystąpił w tablicy wprowadzony z klawiatury znak, wypisze na
+   ekranie ilość wystąpień i zastąpi każde wystąpienie wartością 0. Program powinien
+   zakończyć się gdy tablica jest wypełniona samymi zerami.
